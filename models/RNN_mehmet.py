@@ -10,7 +10,7 @@ import sys
 from torch import FloatTensor
 from torch.autograd import Variable
 import torch
-
+import numpy as np
 vocabulary_size = 8000
 
 
