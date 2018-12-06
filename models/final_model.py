@@ -1,5 +1,5 @@
 from torch import nn
-from lstm import LSTMCustom
+from .lstm import LSTMCustom
 
 class RNNModel(nn.Module):
     """Container module with an encoder, a recurrent module, and a decoder."""
