@@ -9,7 +9,7 @@ from datetime import datetime
 import sys
 from torch import FloatTensor
 from torch.autograd import Variable
-
+import torch
 
 vocabulary_size = 8000
 
